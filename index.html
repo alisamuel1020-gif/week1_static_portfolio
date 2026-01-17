@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Samuel - Web Developer Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    <!-- Header Section -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <h2 class="mb-0">Ali Samuel</h2>
+            <small class="d-block"> Full-stack Web Developer </small>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>     
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Hi, I'm Ali Samuel</h2>
+            <p>I build web applications with Django and Python</p>
+            <p>Currently completing my SIWES internship, learning full-stack web development</p>
+            <a href="contact.html" class="btn">Get In Touch</a>
+        </div>
+    </section>
+<!-- About Preview Section -->
+    <section class="about-preview">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a web development student currently completing my SIWES (Students Industrial Work Experience Scheme) internship. Over the course of 12 weeks, I'm building real-world projects using Django, Python, HTML, CSS, and JavaScript.</p>
+            <p>My focus areas include full-stack development, database design, and creating user-friendly web applications.</p>
+            <a href="about.html">Learn More About Me →</a>
+        </div>
+    </section>
+<!-- Projects Section -->
+<section class="projects py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Featured Projects</h2>
+        <p class="text-center mb-5">Projects will be added as I complete them during my SIWES internship.</p>
+        
+        <div class="row g-4">
+            <!-- Blog System Card -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Blog System</h5>
+                        <p class="card-text">Full-featured blog with authentication, CRUD operations, and comment system</p>
+                        <span class="badge bg-warning text-dark">Coming Soon - Week 2-4</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- E-commerce Card -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">E-commerce Platform</h5>
+                        <p class="card-text">Online store with product catalog, shopping cart, and checkout system</p>
+                        <span class="badge bg-warning text-dark">Coming Soon - Week 5-6</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Task Manager Card -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Task Manager</h5>
+                        <p class="card-text">Project management tool with drag-and-drop functionality</p>
+                        <span class="badge bg-warning text-dark">Coming Soon - Week 8</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+              <!-- Skills Section -->
+    <!-- Skills Slider Section -->
+<section class="skills-slider py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Technical Skills</h2>
+        
+        <div class="slider-container">
+            <div class="slide active">
+                <h3>Frontend Development</h3>
+                <p>HTML5, CSS3, JavaScript, Bootstrap 5, Responsive Design</p>
+            </div>
+            
+            <div class="slide">
+                <h3>Backend Development</h3>
+                <p>Python, Django, SQLite, PostgreSQL, RESTful APIs</p>
+            </div>
+            
+            <div class="slide">
+                <h3>Tools & Version Control</h3>
+                <p>Git, GitHub, VS Code, Linux/Ubuntu, Virtual Environments</p>
+            </div>
+            
+            <div class="slide">
+                <h3>Soft Skills</h3>
+                <p>Problem Solving, Documentation, Team Collaboration, Time Management</p>
+            </div>
+            
+            <!-- Navigation Buttons -->
+            <button class="slider-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="slider-btn next" onclick="changeSlide(1)">&#10095;</button>
+            
+            <!-- Dots -->
+            <div class="slider-dots">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Contact CTA Section -->
+    <section class="contact-cta">
+        <div class="container">
+            <h2>Let's Work Together</h2>
+            <p>I'm currently open to internship opportunities and freelance projects</p>
+            <a href="contact.html" class="btn">Contact Me</a>
+        </div>
+    </section>
+                   
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ali Samuel. Built during SIWES Internship.</p>
+        </div>
+    </footer>  
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
